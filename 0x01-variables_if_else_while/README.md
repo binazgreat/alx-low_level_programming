@@ -1,3 +1,4 @@
 0. Positive anything is better than negative nothing- > This program will assign a random number to the variable n each time it is executed. Complete the source code in order to print whether the number stored in the variable n is positive or negative.
 1. The last digit- > This program will assign a random number to the variable n each time it is executed.
 2. Alphabet game- > Write a program that prints the alphabet in lowercase, followed by a new line.
+3. alphABET- >  Write a program that prints the alphabet in lowercase, and then in uppercase, followed by a new line.
