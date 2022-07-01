@@ -1,20 +1,16 @@
 #include <stdio.h>
 
 /**
- * main -> 
- * and
- * Return : always 0
-*/
+ * main - Entry point
+ *
+ * Return: Always 0 (Success)
+ */
 int main(void)
 {
-	int ch;
-	for(ch=97; ch<=122; ch++)
-	{
-		putchar("ch");
-	}
-	putchar("10");
-srand(time(0));
-n = rand() - RAND_MAX / 2;
-/* your code goes there */
-return (0);
+	char a;
+	for (a = 'a'; a <= 'z'; a++)
+		putchar(a);
+	putchar('\n');
+
+	return (0);
 }
