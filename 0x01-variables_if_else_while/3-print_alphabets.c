@@ -1,23 +1,24 @@
+#include <stdlib.h>
+#include <time.h>
 #include <stdio.h>
 
 /**
- * main - print alphabet in lower and uppercase
+ * main - print the alphabet in lower and uppercase
  *
- *
- * Return: Always (0) Success
+ * Return: 0
  */
 int main(void)
 {
-	char c;
-	for (c = 'a'; c <= 'z'; ++c)
-	{
-		putchar(c);
-	}
-	for (c = 'A'; c <= 'Z'; ++c)
-	{
-		putchar(c);
-	}
-	putchar('\n');
+	int ch;
 
+	for (ch = 97; ch <= 122; ch++)
+	{
+		putchar(ch);
+	}
+	for (ch = 65; ch <= 90; ch++)
+	{
+		putchar(ch);
+	}
+	putchar(10); /* this is ASCII code for newline*/
 	return (0);
 }
