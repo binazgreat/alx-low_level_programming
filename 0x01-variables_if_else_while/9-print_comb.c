@@ -1,7 +1,4 @@
-#include <stdlib.h>
-#include <time.h>
 #include <stdio.h>
-
 /**
  * prints all possible combinations of single-digit numbers
  *
@@ -9,18 +6,24 @@
  **/
 int main(void)
 {
-	int ch;
+	int i, j;
 
-	(for ch = 48; ch <= 57; ch++)
+	for (i = 0; i < 100; i++)
 	{
-		putchar(ch);
-		if (ch != 57)
+		for (j = i + 1; j < 100; j++)
 		{
-			putchar(44);
-			putchar(32);
+			putchar(i / 10 + '0);
+			putchar(i % 10 + '0);
+			putchar('');
+			putchar(j / 10 + '0');
+			putchar(j % 10 + '0');
+			if (i != 98 || j != 99)
+			{
+				putchar(',');
+				putchar('');
+			}
 		}
 	}
-	putchar(10);
-
+	putchar('\n');
 	return (0);
 }
