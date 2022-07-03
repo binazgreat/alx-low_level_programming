@@ -1,29 +1,20 @@
 #include <stdio.h>
 /**
- * prints all possible combinations of single-digit numbers
- *
- * Return: 0
+ * main - assign a random number to the variable n each time it is executed
+ * and print the last digit of the number in variable n
+ * Return: Always 0
  **/
 int main(void)
 {
-	int i, j;
-
-	for (i = 0; i < 100; i++)
+	int ch;
+	for (ch = 48 ; ch <= 57; ch++)
 	{
-		for (j = i + 1; j < 100; j++)
+		putchar(ch);
+		if (ch != 57)
 		{
-			putchar(i / 10 + '0);
-			putchar(i % 10 + '0);
-			putchar('');
-			putchar(j / 10 + '0');
-			putchar(j % 10 + '0');
-			if (i != 98 || j != 99)
-			{
-				putchar(',');
-				putchar('');
-			}
+			putchar(44);
+			putchar(32);
 		}
 	}
-	putchar('\n');
-	return (0);
+	putchar(10); /* this is an ASCII code for new line*/
 }
