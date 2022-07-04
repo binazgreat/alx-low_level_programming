@@ -9,3 +9,4 @@
 8. Hexadecimal- > Write a program that prints all the numbers of base 16 in lowercase, followed by a new line.
 9. Combinations- > Write a program that prints all possible combinations of single-digit numbers.
 10. Inventing- > Write a program that prints all possible different combinations of two digits.
+11. Success combination- > Write a program that prints all possible different combinations of three digits.
