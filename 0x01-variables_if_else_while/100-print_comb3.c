@@ -6,24 +6,22 @@
  */
 int main(void)
 {
-	int i, j;
+	int ch;
+	int n;
 
-	for (i = 0; < 100; i++)
+	for (ch = 48; ch <= 57; ch++)
 	{
-		for (j = i + 1; j < 100; j++)
+		for (n = 49; n <= 57; n++)
 		{
-			putchar(i / 10 + '0');
-			putchar(i % 10 + '0');
-			putcahr('');
-			putchar(j / 10 + '0');
-			putchar(j % 10 + '0');
-			if (i != 98 || j != 99)
+			putchar(ch);
+			putchar(n);
+			if (ch != 56 || n != 57)
 			{
-				putchar(',');
-				putchar('');
+				putchar(44);
+				putchar(32);
 			}
 		}
 	}
-	putchar('\n');
+	putchar(10); /* this is an ASCII code for new line*/
 	return (0);
 }
