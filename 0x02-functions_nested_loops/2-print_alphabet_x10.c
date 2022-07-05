@@ -3,7 +3,7 @@
  * prints alphabet - 10x times in lowercase
  * Return: Success (0)
  */
-void print_alphabet_x10(void);
+void print_alphabet_x10(void)
 {
 	int j;
 	int x;
