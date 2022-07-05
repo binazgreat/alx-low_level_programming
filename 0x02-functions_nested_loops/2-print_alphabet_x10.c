@@ -1,9 +1,11 @@
 #include "main.h"
 /**
- * prints alphabet - 10x times in lowercase
- * Return: Success (0)
+ * prints_alphabet_10x - prints the lower case alphabets
+ *
+ * Return: Always 0
  */
-void print_alphabet_x10(void)
+void print_alphabet_x10(void);
+
 {
 	int j;
 	int x;
@@ -15,6 +17,7 @@ void print_alphabet_x10(void)
 			_putchar(j);
 		}
 		_putchar('\n');
+		return (0);
 	}
 }
 
