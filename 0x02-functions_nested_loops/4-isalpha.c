@@ -3,9 +3,9 @@
 /**
  * _isalpha - checks for alphabetical character
  * @c: a character to bechecked on
- * Return: return 1 or 0 depending on condition
+ * Return: return 0 or 1 depending on condition
  */
 int _isalpha(int c)
 {
-	((c >= 'a' && c <= 'z') || (c >= 'A' && c <= 'Z'));
+	return ((c >= 'a' && c <= 'z') || (c >= 'A' && c <= 'Z'));
 }
