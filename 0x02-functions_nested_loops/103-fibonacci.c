@@ -1,4 +1,5 @@
 #include <stdio.h>
+
 /**
  * main - find and prints the sum of the evan-valued terms
  * followed by a new line
@@ -20,6 +21,7 @@ int main(void)
 			sum = sum + j;
 		}
 		next = j + k;
+		j = k;
 		k = next;
 	}
 
