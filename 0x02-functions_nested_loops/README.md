@@ -7,3 +7,4 @@
 6. Absolute value -> Write a function that computes the absolute value of an integer.
 7. Color, digit, notes -> Write a function that prints the last digit of a number.
 8. Jack Bauer -> Write a function that prints every minute of the day of Jack Bauer, starting from 00:00 to 23:59.
+9. Learn your times table -> Write a function that prints the 9 times table, starting with 0.
