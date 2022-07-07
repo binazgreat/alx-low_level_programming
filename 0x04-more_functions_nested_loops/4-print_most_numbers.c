@@ -2,7 +2,8 @@
 /**
  * print_most_numbers - prints most numbers
  */
-void print_most_numbers(void);
+
+void print_most_numbers(void)
 {
 	int x;
 
