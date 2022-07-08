@@ -8,3 +8,4 @@
 7. Diagonal -> Write a function that draws a diagonal line on the terminal.
 8. Square ->Write a function that prints a square, followed by a new line.
 9. Fizz-buzz -> Write a program that prints the numbers from 1 to 100
+10. Triangles -> Write a function that prints a triangle, followed by a new line.
