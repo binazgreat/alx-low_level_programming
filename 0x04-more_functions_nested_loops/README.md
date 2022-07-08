@@ -7,3 +7,4 @@
 6. Straight line -> Write a function that draws a straight line in the terminal.
 7. Diagonal -> Write a function that draws a diagonal line on the terminal.
 8. Square ->Write a function that prints a square, followed by a new line.
+9. Fizz-buzz -> Write a program that prints the numbers from 1 to 100
