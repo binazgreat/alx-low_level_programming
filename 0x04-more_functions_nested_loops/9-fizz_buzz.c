@@ -1,6 +1,7 @@
 #include <stdio.h>
 /**
  * main - entry point
+ *
  * Return: void
  */
 int main(void)
@@ -27,7 +28,6 @@ int main(void)
 			else
 				printf("Buzz");
 		}
-
 		else
 		{
 			printf("%i ", i);
