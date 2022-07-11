@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <time.h>
 /**
- * main -generates a rndom password
+ * main - entry point generates a rndom password
  *
  * Return: generated password
  */
