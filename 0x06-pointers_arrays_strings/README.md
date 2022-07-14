@@ -6,3 +6,4 @@
 4. Reverse - Write a function that reverses the content of an array of integers.
 5. Always look up - Write a function that changes all lowercase letters of a string to uppercase.
 6. Capitalize - Write a function that capitalizes all words of a string.
+7. Encoding - Write a function that encodes a string into 1337.
