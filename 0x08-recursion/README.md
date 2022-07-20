@@ -6,3 +6,4 @@ Recursions
 4. Task 4 - Write a function that returns the value of x raised to the power of y.
 5. Task 5 - Write a function that returns the natural square root of a number.
 6. Task 6 - Write a function that returns 1 if the input integer is a prime number, otherwise return 0.
+7. Task 7 - Write a function that returns 1 if a string is a palindrome and 0 if not.
