@@ -5,7 +5,7 @@
  * @height: height of an array
  * Return: a ponter to allocated grid
  */
-int **alloc_grid(int width, int height);
+int **alloc_grid(int width, int height)
 {
 	int i, j, k, l;
 	int **a;
