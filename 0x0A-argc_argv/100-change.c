@@ -9,7 +9,7 @@
 int main(int argc, char *argv[])
 {
 	int num, j, result = 0;
-	int cins[] = {25, 10, 5, 2, 1};
+	int coins[] = {25, 10, 5, 2, 1};
 
 	if (argc != 2)
 	{
