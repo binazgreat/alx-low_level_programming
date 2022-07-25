@@ -1,2 +1,2 @@
-Static Libraries
-0. - Create the static library libmy.a containing all the functions listed below.
+# Static_libraries
+0. Create the static library libmy.a containing all the functions listed below:
