@@ -93,11 +93,13 @@ void get_prod(char *prod, char *mult, int digit, int zeroes)
 
 	mult_len = find_len(mult) - 1;
 	mult += mult_len;
+
 	while (*prod)
 	{
 		*prod = 'x';
 		prod++;
 	}
+
 	for (; mult_len >= 0; mult_len--, mult--, prod--)
 	{
 		if (*mult < '0' || *mult > '9')
@@ -105,11 +107,13 @@ void get_prod(char *prod, char *mult, int digit, int zeroes)
 			printf("Error\n");
 			exit(98);
 		}
+
 		num = (*mult - '0') * digit;
 		num += tens;
 		*prod = (num % 10) + '0';
 		tens = num / 10;
 	}
+
 	if (tens)
 		*prod = (tens % 10) + '0';
 }
@@ -125,26 +129,32 @@ void add_nums(char *final_prod, char *next_prod, int next_len)
 
 	while (*(final_prod + 1))
 		final_prod++;
+
 	while (*(next_prod + 1))
 		next_prod++;
+
 	for (; *final_prod != 'x'; final_prod--)
 	{
 		num = (*final_prod - '0') + (*next_prod - '0');
 		num += tens;
 		*final_prod = (num % 10) + '0';
 		tens = num / 10;
+
 		next_prod--;
 		next_len--;
 	}
+
 	for (; next_len >= 0 && *next_prod != 'x'; next_len--)
 	{
 		num = (*next_prod - '0');
 		num += tens;
 		*final_prod = (num % 10) + '0';
 		tens = num / 10;
+
 		final_prod--;
 		next_prod--;
 	}
+
 	if (tens)
 		*final_prod = (tens % 10) + '0';
 }
@@ -152,9 +162,10 @@ void add_nums(char *final_prod, char *next_prod, int next_len)
  * main - Multiplies two positive numbers.
  * @argv: The number of arguments passed to the program.
  * @argc: An array of pointers to the arguments.
+ *
  * Description: If the number of arguments is incorrect or one number
  * contains non-digits, the function exits with a status of 98.
- * Return: Always (0).
+ * Return: Always 0.
  */
 int main(int argc, char *argv[])
 {
@@ -191,7 +202,9 @@ int main(int argc, char *argv[])
 			putchar(final_prod[index]);
 	}
 	putchar('\n');
+
 	free(next_prod);
 	free(final_prod);
+
 	return (0);
 }
