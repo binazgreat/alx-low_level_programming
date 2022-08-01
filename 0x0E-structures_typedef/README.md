@@ -4,3 +4,4 @@ This task is about Structures
 2. Task2 - Write a function that prints a struct dog.
 3. Task3 - Define a new type dog_t as a new name for the type struct dog.
 4. Task4 - Write a function that creates a new dog.
+5. Task5- Write a function that frees dogs.
