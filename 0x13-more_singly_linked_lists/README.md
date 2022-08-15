@@ -5,3 +5,4 @@ Task2 - Write a function that adds a new node at the beginning of a listint_t li
 Task3 - Write a function that adds a new node at the end of a listint_t list.
 Task4 - Write a function that frees a listint_t list.
 Task5 - Write a function that frees a listint_t list.
+Task6 - Write a function that deletes the head node of a listint_t linked list, and returns the head node’s data (n).
