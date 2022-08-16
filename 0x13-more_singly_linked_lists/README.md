@@ -12,3 +12,4 @@ Task9 - Write a function that inserts a new node at a given position.
 Task10 - Write a function that deletes the node at index index of a listint_t linked list.
 Task11 - Write a function that reverses a listint_t linked list.
 Task12 - Write a function that prints a listint_t linked list.
+Task13 - Write a function that frees a listint_t list.
