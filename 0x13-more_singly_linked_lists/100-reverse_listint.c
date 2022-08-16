@@ -1,4 +1,4 @@
-#iclude "lists.h"
+#include "lists.h"
 
 /**
  * reverse_listint - reverses a linked list.
@@ -21,6 +21,7 @@ listint_t *reverse_listint(listint_t **head)
 		p = *head;
 		*head = n;
 	}
+
 	*head = p;
 	return (*head);
 }
