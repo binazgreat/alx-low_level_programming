@@ -4,7 +4,7 @@
  * @head: Head of list
  * @n: n element
  *
- * Retrun: Address of the new element. NUll if it failed.
+ * Return: Address of the new element. NUll if it failed.
  */
 listint_t *add_nodeint_end(listint_t **head, const int n)
 {
@@ -29,6 +29,7 @@ listint_t *add_nodeint_end(listint_t **head, const int n)
 		{
 			temp = temp->next;
 		}
-		temp->next = new;}
+		temp->next = new;
+	}
 	return (*head);
 }
