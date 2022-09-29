@@ -47,8 +47,30 @@ int f5(char *usrn, int len)
 
 	while (vch < *usrn)
 	{
-		ch = rand()
+		ch = ch + usrn[vch] * usrn[vch];
 			vch += 1;
+	}
+
+	return (((unsigned int)ch ^ 239) & 63);
+}
+
+/**
+ * f6 - generates a random char
+ *
+ * @usrn: username
+ * Return: a random char
+ */
+int f6(char *usrn)
+{
+	int ch;
+	int vch;
+
+	ch = vch = 0;
+
+	while (vch < *usrn)
+	{
+		ch = rand();
+		vch += 1;
 	}
 
 	return (((unsigned int)ch ^ 229) & 63);
