@@ -60,6 +60,7 @@ int f5(char *usrn, int len)
  * @usrn: username
  * Return: a random char
  */
+
 int f6(char *usrn)
 {
 	int ch;
@@ -125,7 +126,3 @@ int main(int argc, char **argv)
 		printf("%c", keygen[ch]);
 	return (0);
 }
-
-
-
-
