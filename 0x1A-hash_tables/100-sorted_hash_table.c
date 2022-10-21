@@ -50,7 +50,7 @@ int shash_table_set(shash_table_t *ht, const char *key, const char *value)
 	char *value_copy;
 	unsigned long int index;
 
-	f (ht == NULL || key == NULL || *key == '\0' || value == NULL)
+	if (ht == NULL || key == NULL || *key == '\0' || value == NULL)
 		return (0);
 
 	value_copy = strdup(value);
