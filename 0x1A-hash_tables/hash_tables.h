@@ -67,6 +67,7 @@ typedef struct shash_node_s
  * @shead: A pointer to the first element of the sorted linked list
  * @stail: A pointer to the last element of the sorted linked list
  */
+typedef struct shash_table_s
 {
 	unsigned long int size;
 	shash_node_t **array;
